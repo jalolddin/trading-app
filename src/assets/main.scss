@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        .block {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .submit {
+            background: #399EF4;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            height: 3.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    #chart {
+        width: 50%;
+    }
+}
